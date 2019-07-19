@@ -11,7 +11,7 @@ Resources:
     Website:
         Type: AWS::Serverless::Function
         Properties:
-            FunctionName: 'symfony-lambda'
+            FunctionName: 'symfony-serverless'
             CodeUri: .
             Handler: public/index.php
             Timeout: 30 # in seconds (API Gateway has a timeout of 30 seconds)
